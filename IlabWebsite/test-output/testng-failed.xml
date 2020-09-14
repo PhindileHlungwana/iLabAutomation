@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
+    <classes>
+      <class name="com.test.classes.AutomateiLab">
+        <methods>
+          <include name="startTest"/>
+          <include name="goToCareers"/>
+          <include name="config"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.test.classes.AutomateiLab -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

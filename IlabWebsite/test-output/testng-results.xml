@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52623" started-at="2020-09-14T11:25:20Z" finished-at="2020-09-14T11:26:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52623" started-at="2020-09-14T11:25:20Z" finished-at="2020-09-14T11:26:12Z">
+      <class name="com.test.classes.AutomateiLab">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.test.classes.AutomateiLab@5d740a0f]" name="startTest" is-config="true" duration-ms="798" started-at="2020-09-14T13:25:20Z" finished-at="2020-09-14T13:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="launchiLabWeb()[pri:0, instance:com.test.classes.AutomateiLab@5d740a0f]" name="launchiLabWeb" duration-ms="51786" started-at="2020-09-14T13:25:20Z" finished-at="2020-09-14T13:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchiLabWeb -->
+      </class> <!-- com.test.classes.AutomateiLab -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
