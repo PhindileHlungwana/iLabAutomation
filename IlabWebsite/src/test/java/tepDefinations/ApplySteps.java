@@ -26,7 +26,7 @@ public class ApplySteps {
 		
 		/* Defining System Property for the IEDriver 
 		System.setProperty("webdriver.ie.driver",
-				"C:\\Users\\XY25626\\Desktop\\selenium_drivers\\IEDriverServer.exe");
+		"C:\\Users\\XY25626\\Desktop\\selenium_drivers\\IEDriverServer.exe");
 		// Instantiate a IEDriver class. 
 		driver=new InternetExplorerDriver();*/
 		
@@ -64,9 +64,7 @@ public class ApplySteps {
 		driver.findElement(By.xpath("//*[@id=\"applicant_name\"]")).sendKeys(name);
 		driver.findElement(By.id("email")).sendKeys(email);
 		driver.findElement(By.id("phone")).sendKeys(phone);
-		
-		
-		
+
 	}
 	
 	@And("user clicks on apply")
